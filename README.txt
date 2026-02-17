@@ -1,0 +1,1 @@
+mimics anki in terminal
