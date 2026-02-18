@@ -13,7 +13,8 @@ $English | Format-Table -AutoSize
 
 
 
-$rating = Read-Host
+$rating = Read-Host "Input [0/1] "
+
 if ($rating -eq "1")
 {
   $randomRow.Points = [int]$randomRow.Points + 1
